@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  text-align: center;
+}
+
+p {
+  font-family: helvetica;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  font-family: helvetica;
+  position: relative;
+}
+
+#loginDiv{
+  background-color: #696969;
+  text-align: center;
+}
+
+#signUpDiv{
+  background-color: #696969;
+  text-align: center;
+}
+
+#loginSignUpDiv{
+  background-color: #696969;
+  text-align: center;
+}
+
+#signUpButton {
+  margin-top: 20px;
+}

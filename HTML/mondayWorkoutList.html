@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../JavaScript/workoutLists.js"></script>
+<link rel="stylesheet" type="text/css" href="../CSS/workoutLists.css">
+</head>
+<body>
+<h1 id="mondayHeaderWorkout">Monday</h1>
+<div id="workoutTableDiv">
+  <table>
+      <tr>
+          <th>Workout</th>
+          <th>Reps</th>
+      </tr>
+      <tr>
+          <td><input id="mondayWorkout1" value="" placeholder="Workout 1"/></td>
+          <td><input id="mondayReps1" value="" placeholder="Reps Count 1"/>></td>
+      </tr>
+      <tr>
+          <td><input id="mondayWorkout2" value="" placeholder="Workout 2"/></td>
+          <td><input id="mondayReps2" value="" placeholder="Reps Count 2"/>></td>
+      </tr>
+      <tr>
+          <td><input id="mondayWorkout3" value="" placeholder="Workout 3"/></td>
+          <td><input id="mondayReps3" value="" placeholder="Reps Count 3"/>></td>
+      </tr>
+      <tr>
+          <td><input id="mondayWorkout4" value="" placeholder="Workout 4"/></td>
+          <td><input id="mondayReps4" value="" placeholder="Reps Count 4"/>></td>
+      </tr>
+      <tr>
+          <td><input id="mondayWorkout5" value="" placeholder="Workout 4"/></td>
+          <td><input id="mondayReps5" value="" placeholder="Reps Count 4"/>></td>
+      </tr>
+  </table>
+</div>
+<div id="saveReturnWorkoutButtonDiv">
+  <button id="saveWorkoutButton" onClick="saveMondayWorkout()">Save Workout</button>
+  <button id="returnToMainButton" onClick="returnDaySelection()">Return to Home Screen</button>
+</div>
+</body>
+</html>

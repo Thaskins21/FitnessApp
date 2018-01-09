@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../JavaScript/signUp.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/indexLayout.css">
+  </head>
+  <body>
+    <div id="signUpDiv">
+      <h1 id="signUpHeader">Sign Up</h1>
+      <p>First Name:</p>
+        <input id="firstNameInput" class="signUpField" value="" placeholder="First Name..."/>
+      <p>Surname:</p>
+        <input id="surnameInput" class="signUpField" value="" placeholder="Surname..."/>
+      <p>Date of Birth:</p>
+      <input id="dateOfBirthInput" class="signUpField" type="date" value=""/>
+      <p>Username:</p>
+        <input id="usernameInput" class="signUpField" value="" placeholder="Username..."/>
+      <p>Password:</p>
+        <input id="passwordSignUpInput" class="signUpField" value="" placeholder="Password..."/>
+    </div>
+    <div id="loginSignUpDiv">
+      <button id="signUpButton" onclick="signUp()">Sign Up</button>
+      <button id="returnToLoginButton" onclick="returnToLogin()">Return to Login Screen</button>
+    </div>
+  </body>
+</html>

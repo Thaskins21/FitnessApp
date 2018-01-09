@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="../JavaScript/foodLists.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/foodLists.css">
+</head>
+<body>
+  <div id="foodTableDiv">
+    <h1>Tuesday Food</h1>
+    <table>
+      <tr>
+        <th>Breakfast</th>
+        <th>Lunch</th>
+        <th>Dinner</th>
+      </tr>
+      <tr>
+        <td><input id="tuesdayFoodBreakfast1" value="" placeholder="Option 1"></td>
+        <td><input id="tuesdayFoodLunch1" value="" placeholder="Option 1"></td>
+        <td><input id="tuesdayFoodDinner1" value="" placeholder="Option 1"></td>
+      </tr>
+      <tr>
+        <td><input id="tuesdayFoodBreakfast2" value="" placeholder="Option 2"></td>
+        <td><input id="tuesdayFoodLunch2" value="" placeholder="Option 2"></td>
+        <td><input id="tuesdayFoodDinner2" value="" placeholder="Option 2"></td>
+      </tr>
+      <tr>
+        <td><input id="tuesdayFoodBreakfast3" value="" placeholder="Option 3"></td>
+        <td><input id="tuesdayFoodLunch3" value="" placeholder="Option 3"></td>
+        <td><input id="tuesdayFoodDinner3" value="" placeholder="Option 3"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="workoutListingDiv">
+    <table>
+      <tr>
+        <td>
+          <p id="tuesdayWorkout1Label">Workout 1</p>
+          <p id="tuesdayWorkout2Label">Workout 2</p>
+          <p id="tuesdayWorkout3Label">Workout 3</p>
+          <p id="tuesdayWorkout4Label">Workout 4</p>
+          <p id="tuesdayWorkout5Label">Workout 5</p>
+        </td>
+        <td>
+          <p id="tuesdayReps1Label">Reps 1</p>
+          <p id="tuesdayReps2Label">Reps 2</p>
+          <p id="tuesdayReps3Label">Reps 3</p>
+          <p id="tuesdayReps4Label">Reps 4</p>
+          <p id="tuesdayReps5Label">Reps 5</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="saveReturnFoodButtonDiv">
+    <button id="saveFoodButton" onclick="saveTuesdayFood()">Save Food</button>
+    <button id="returnToMainButton" onClick="returnDaySelection()">Return to Day Selection</button>
+  </div>
+</body>
+</html>

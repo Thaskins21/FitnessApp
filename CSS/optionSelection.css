@@ -1,0 +1,20 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#optionSelectionDiv{
+  background-color: #696969;
+  text-align: center;
+}
+
+h1 {
+  font-family: helvetica;
+}
+
+div {
+  text-align: center;
+  margin: 50px;
+}
