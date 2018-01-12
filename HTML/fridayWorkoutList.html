@@ -7,35 +7,37 @@
 <body>
 <h1 id="fridayHeaderWorkout">Friday</h1>
 <div id="workoutTableDiv">
+<form onsubmit="saveFridayWorkout()" action="fridayworkout.php" method="post">
   <table>
       <tr>
           <th>Workout</th>
           <th>Reps</th>
       </tr>
       <tr>
-          <td><input id="fridayWorkout1" value="" placeholder="Workout 1"/></td>
-          <td><input id="fridayReps1" value="" placeholder="Reps Count 1"/>></td>
+          <td><input id="fridayWorkout1" value="" placeholder="Workout 1" name="fridayWorkout1Input"/></td><br />
+          <td><input id="fridayReps1" value="" placeholder="Reps Count 1" name="fridayReps1Input"/></td><br />
       </tr>
       <tr>
-          <td><input id="fridayWorkout2" value="" placeholder="Workout 2"/></td>
-          <td><input id="fridayReps2" value="" placeholder="Reps Count 2"/>></td>
+          <td><input id="fridayWorkout2" value="" placeholder="Workout 2" name="fridayWorkout2Input"/></td>
+          <td><input id="fridayReps2" value="" placeholder="Reps Count 2" name="fridayReps2Input"/></td>
       </tr>
       <tr>
-          <td><input id="fridayWorkout3" value="" placeholder="Workout 3"/></td>
-          <td><input id="fridayReps3" value="" placeholder="Reps Count 3"/>></td>
+          <td><input id="fridayWorkout3" value="" placeholder="Workout 3" name="fridayWorkout3Input"/></td>
+          <td><input id="fridayReps3" value="" placeholder="Reps Count 3" name="fridayReps3Input"/></td>
       </tr>
       <tr>
-          <td><input id="fridayWorkout4" value="" placeholder="Workout 4"/></td>
-          <td><input id="fridayReps4" value="" placeholder="Reps Count 4"/>></td>
+          <td><input id="fridayWorkout4" value="" placeholder="Workout 4" name="fridayWorkout4Input"/></td>
+          <td><input id="fridayReps4" value="" placeholder="Reps Count 4" name="fridayReps4Input"/></td>
       </tr>
       <tr>
-          <td><input id="fridayWorkout5" value="" placeholder="Workout 4"/></td>
-          <td><input id="fridayReps5" value="" placeholder="Reps Count 4"/>></td>
+          <td><input id="fridayWorkout5" value="" placeholder="Workout 4" name="fridayWorkout5Input"/></td>
+          <td><input id="fridayReps5" value="" placeholder="Reps Count 4" name="fridayReps5Input"/></td>
       </tr>
   </table>
+  <input type="submit" value="Save Workout">
+</form>
 </div>
 <div id="saveReturnWorkoutButtonDiv">
-  <button id="saveFridayWorkoutButton" onClick="saveFridayWorkout()">Save Workout</button>
   <button id="returnToMainButton" onClick="returnDaySelection()">Return to Home Screen</button>
 </div>
 </body>
